@@ -7,13 +7,13 @@ def assure_path_exists(path):
         os.makedirs(dir)
 
 face_id = input('Enter your ID: ')
-dataset_path = "C:/Users/Virat/Downloads/New folder/Automatic_attendence_system_using_facial_recognition_python_openCV-main/dataset/"
+dataset_path = "C:/Users/Virat/Downloads/Projects/Data Set/"
 
 # Start capturing video
 vid_cam = cv2.VideoCapture(0)
 
 # Detect object in video stream using Haarcascade Frontal Face
-face_detector = cv2.CascadeClassifier("C:/Users/Virat/Downloads/New folder/Automatic_attendence_system_using_facial_recognition_python_openCV-main/haarcascade_frontalface_default.xml")
+face_detector = cv2.CascadeClassifier("C:/Users/Virat/Downloads/Projects/Automatic_attendence_system_using_facial_recognition_python_openCV-main/haarcascade_frontalface_default.xml")
 
 # Initialize sample face image
 count = 0

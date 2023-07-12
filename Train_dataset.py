@@ -28,7 +28,7 @@ def getImagesAndLabels(path):
 
     return faceSamples, Ids
 
-dataset_path = ('C:/Users/Virat/Downloads/Projects/Automatic_attendence_system_using_facial_recognition_python_openCV-main/dataset/')
+dataset_path = ('C:/Users/Virat/Downloads/Projects/Data Set/')
 faces, Ids = getImagesAndLabels(dataset_path)
 
 if len(faces) > 0 and len(Ids) > 0:
